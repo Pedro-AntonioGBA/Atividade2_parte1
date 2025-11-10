@@ -11,9 +11,9 @@
 var pessoa1 = `{
     "nome": "Pedro",
     "idade": 21, 
-    "cidade": "pirpirituba"}`; // => { nome: 'Pedro', idade: 21, cidade: 'pirpirituba' }
+    "cidade": "pirpirituba"}`;
 
-console.log(JSON.parse(pessoa1));
+console.log(JSON.parse(pessoa1)); // => { nome: 'Pedro', idade: 21, cidade: 'pirpirituba' }
 ```
 ## JSON.stringify():
 
@@ -22,7 +22,7 @@ console.log(JSON.parse(pessoa1));
 ```js
 var pessoa2 = { "nome": "Maria", "idade": "21", "cidade": "Guarabira" }; // => {"nome":"Maria","idade":"21","cidade":"Guarabira"}
 
-console.log(JSON.stringify(pessoa2));
+console.log(JSON.stringify(pessoa2)); => {"nome":"Maria","idade":"21","cidade":"Guarabira"}
 ```
 
 # 3. Considerando a string "JavaScript é baseada em ECMA Script", quais métodos você usaria para:
